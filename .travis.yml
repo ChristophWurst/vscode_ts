@@ -10,9 +10,6 @@ before_script:
   # Install Bower dependencies
   - bower install
 
-  # Install DefinitelyTyped dependencies
-  - tsd install
-
 script:
   # Transpile TypeScript
   tsc
