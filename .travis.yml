@@ -5,7 +5,11 @@ before_script:
 	# Install global npm dependencies
 	- npm install -g typescript
 	- npm install -g tsd
-	
+	- npm install -g bower
+
+	# Install Bower dependencies
+	- bower install
+
 	# Install DefinitelyTyped dependencies
 	- tsd install
 
