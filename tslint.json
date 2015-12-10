@@ -1,0 +1,21 @@
+{
+	"class-name": true,
+	"curly": true,
+	"eofline": true,
+	"indent": "tabs",
+	"interface-name": true,
+	"max-line-length": 120,
+	"member-ordering": "variables-before-functions",
+	"no-any": true,
+	"no-bitwise": true,
+	"no-consecutive-blank-lines": true,
+	"no-eval": true,
+	"no-trailing-whitespace": true,
+	"no-unreachable": true,
+	"no-unused-expression": true,
+	"no-use-before-declare": true,
+	"quotemark": "double",
+	"semicolon": true,
+	"triple-equals": true,
+	"use-strict": true
+}

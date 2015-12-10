@@ -18,7 +18,7 @@ class App {
 		var t: Timer = new Timer(1000, function() {
 			cnt++;
 			_this.logger.log("Timer elapsed " + cnt + " times");
-			
+
 			// stop after 10 intervals 
 			return cnt < 10;
 		});
