@@ -1,0 +1,15 @@
+sudo: false
+language: node_js
+
+before_script:
+  # Install global npm dependencies
+  - npm install -g typescript
+  - npm install -g tsd
+  - npm install -g bower
+
+  # Install Bower dependencies
+  - bower install
+
+script:
+  # Transpile TypeScript
+  tsc
