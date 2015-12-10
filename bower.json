@@ -1,0 +1,25 @@
+{
+  "name": "vscode_ts",
+  "authors": [
+    "Christoph Wurst <christoph@winzerhof-wurst.at>"
+  ],
+  "description": "",
+  "main": "main.js",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "GPLv3",
+  "homepage": "https://github.com/ChristophWurst/vscode_ts",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.22",
+    "jquery": "~2.1.4"
+  }
+}

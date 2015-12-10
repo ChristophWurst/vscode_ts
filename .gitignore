@@ -1,0 +1,8 @@
+**/*.js
+**/*.js.map
+
+# Bower
+bower_components
+
+# TypeScript typings
+typings
