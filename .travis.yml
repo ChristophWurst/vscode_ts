@@ -1,0 +1,14 @@
+sudo: false
+language: node_js
+
+before_script:
+	# Install global npm dependencies
+	- npm install -g typescript
+	- npm install -g tsd
+	
+	# Install DefinitelyTyped dependencies
+	- tsd install
+
+script:
+	# Transpile TypeScript
+	tsc
